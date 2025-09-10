@@ -6,3 +6,27 @@ submodules/.DS_Store
 clients/
 
 nodes/
+
+# macOS cruft
+.DS_Store
+
+# Logs & tmp
+*.log
+*.tmp
+tmp/
+cache/
+
+# Build artifacts
+dist/
+bin/
+*.db
+*.sqlite
+
+# Local client bins (if not already ignored)
+clients/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+
